@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/src/styles/main.scss">
 </head>
 <body>
-    <section class="hero">
-        <div class="container"></div>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">Meu aniversário será:<br><span id="contador"></span></p>
+        </div>
+    </header>
+    <section class="event">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre mim</h2>
+                <p class="event__details__text">Nasci dia 20 de janeiro de 2000, no país de El Salvador, localizado na América Central. Na cidade de São Salvador. Vim para o Brasil quando tinha 6 anos de idade. Desde então, moro em Londrina - Paraná junto à minha família.</p>
+            </div>
+            <img class="event__image" src="/src/images/sobre-image.jpg" alt="Caderno">
+        </div>
     </section>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/src/scripts/main.js"></script>
 </body>
 </html>
